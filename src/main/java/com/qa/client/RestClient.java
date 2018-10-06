@@ -37,6 +37,7 @@ public class RestClient extends BaseTest{
 			JSONObject responseJSON = new JSONObject(responseString);
 			System.out.println("ReST GET Request - Response JSON..........."+responseJSON);
 			
+			//To get Header response
 			Header[] headersArray = closeableHttpResponse.getAllHeaders();
 			
 			HashMap<String,String> allHeaders = new HashMap<String,String>();

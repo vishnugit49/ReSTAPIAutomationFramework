@@ -7,6 +7,14 @@ import java.util.Properties;
 
 public class BaseTest {
 
+	public int RESPONSE_STATE_CODE_200 = 200;
+	public int RESPONSE_STATE_CODE_500 = 500;
+	public int RESPONSE_STATE_CODE_400 = 400;
+	public int RESPONSE_STATE_CODE_401 = 401;
+	public int RESPONSE_STATE_CODE_201 = 201;
+	
+	
+	
 	public Properties prop;
 	
 	public BaseTest() {
